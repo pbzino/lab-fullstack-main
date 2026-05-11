@@ -1,0 +1,86 @@
+.pagina1 {
+    background-color: #73b6e6;
+}
+
+
+
+.titulo{
+    color: rgb(0, 0, 0);
+    text-align:center;
+}
+a:hover{color: blueviolet;}
+.links{color: blue;}
+
+.tabela, .tabela th, .tabela td {
+    border: 1px solid red;
+    color: red;
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+    
+}
+.apresentação {
+    font-size: 17px;
+    font-family: 'poppins', sans-serif;
+    color: darkblue;
+    text-align: center;
+    letter-spacing: 2x;
+    font-weight: bold;
+
+}
+
+.lista {
+    list-style: none;
+    padding: 0;
+    width: 200px;
+   
+}
+
+
+.lista li {
+    background-color: #573bd4;
+    color: white;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    text-align: left;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.lista li hover{
+    background-color: deepskyblue;
+    transform: scale(1.05);
+    
+}
+.fotos {
+    display: flex;
+    gap:20px;
+    overflow-x: auto;
+    padding: 20px;
+}
+.imagem {
+    min-width: 200px;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+}
+.imagem img { 
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+}
+.imagem p {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.bodyguess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    flex-direction: column;
+}
