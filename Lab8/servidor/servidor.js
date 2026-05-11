@@ -14,7 +14,7 @@ let usuarioSalvo = "";
 let senhaSalva = "";
 
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "public", "aula/projects.html"));
+    res.sendFile(path.join(__dirname, "public", "projects.html"));
 });
 
 app.get("/cadastra", (req, res) => {
@@ -44,7 +44,7 @@ app.post("/logar", (req, res) => {
     if(usuario === usuarioSalvo && senha === senhaSalva){
 
         res.render("resposta", {
-            mensagem: "Login realizado com sucesso!"
+            mensagem: `Login efetuado! Bem vindo ${usuario}`
         });
 
     }else{
