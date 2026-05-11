@@ -1,0 +1,114 @@
+.cabecalho {
+    background-color: bisque;
+    border: 2px solid darkblue;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    color: darkgreen;
+}
+
+.cmaismais1 {
+    position: absolute;
+    left: 20px;
+    top: 20%;
+    width: 80px;
+}
+
+.java1 {
+    position: absolute;
+    right: 20px;
+    top: 20%;
+    width: 80px;
+}
+.pagina3 {
+    background-color: lightgray;
+}
+
+.menu {
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 10px;
+}
+.menu a {
+    color: darkred ;
+    margin: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.negritos {
+    font-weight: bold;
+    text-align: center;
+}
+
+.textoroxo {
+    color: indigo;
+    text-align: center;
+}
+.books {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    justify-content: space-around;
+    gap: 10px;
+}
+.books img {
+    width: 200px ;
+    height: auto;
+
+}
+.videomapa {
+    display: flex;
+    /* margin-bottom: 30px; */
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+
+}
+.rodape {
+    text-align: center;
+    font-family: "Comic Sans MS";
+    background-color: bisque;
+    padding: 20px;
+    position: relative;
+    border: none;
+    font-size: 15pt;
+}
+.css1 {
+    position: absolute;
+    right: 20px;
+    bottom: 20%;
+    width: 60px;
+}
+.html1 {
+    position: absolute;
+    left: 20px;
+    bottom: 20%;
+    width: 80px;
+}
+
+.webschool {
+
+    text-align: center;
+    background-color: yellow;
+    gap: 40px;
+    padding: 15px;
+    
+}
+.tabelona {
+    border: 3px dashed red;
+    border-collapse: collapse;
+    margin: 20px auto;
+    color: black;
+    font-family: sans-serif;
+    align-items: center;
+}
+.tabelona th, .tabelona td {
+    border: 2px dashed red;
+    padding: 10px 20px;
+    text-align: left;
+}
+.faixaamarela {
+    background-color: yellow;
+    text-align: center;
+}
