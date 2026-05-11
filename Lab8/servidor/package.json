@@ -9,6 +9,7 @@
   "author": "Pedro Barreto",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^2.2.2",
     "colors": "^1.4.0",
     "ejs": "^5.0.2",
     "express": "^5.2.1"
