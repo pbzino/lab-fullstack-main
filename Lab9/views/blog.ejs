@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+    <link rel="stylesheet" href="/blog.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Blog</h1>
+        <a href="/cadastrar_post">
+            <button>+ Novo Post</button>
+        </a>
+        <hr>
+
+        <% if (listaPosts.length === 0) { %>
+            <p>Nenhum post cadastrado ainda.</p>
+        <% } %>
+
+        <% for (var i = 0; i < listaPosts.length; i++) { %>
+            <div class="post">
+                <h2><%= listaPosts[i].titulo %></h2>
+                <p class="resumo"><%= listaPosts[i].resumo %></p>
+                <p><%= listaPosts[i].conteudo %></p>
+            </div>
+        <% } %>
+    </div>
+</body>
+</html>

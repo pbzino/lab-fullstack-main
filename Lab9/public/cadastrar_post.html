@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastrar Post</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Novo Post</h1>
+        <form action="/salvar_post" method="POST">
+            <input  type="text" name="titulo"   placeholder="Título"   required>
+            <input  type="text" name="resumo"   placeholder="Resumo"   required>
+            <textarea           name="conteudo" placeholder="Conteúdo" rows="6" required></textarea>
+            <button type="submit">Publicar</button>
+        </form>
+        <a href="/blog">← Voltar ao Blog</a>
+    </div>
+</body>
+</html>
